@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Credencial">
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="147dp"
+        android:src="@drawable/fotocredencial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:id="@+id/Foto"/>
+
+    <TextView
+        android:id="@+id/Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:\n Benjamín Maximiliano Zepeda Ibarra"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@id/Foto"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/Carrera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carrera:\n Ingenieria en Sistemas Computacionales"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@id/Nombre"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/NSS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NSS:\n 07130097376"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@id/Carrera"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/NC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NC:\n 18401214"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@id/NSS"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#NoMeRepruebesBenigno"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20sp"
+        android:layout_above="@id/ayuda2"
+        android:id="@+id/ayuda1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(C) Derechos Reservados Benjamín Zepeda"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20sp"
+        android:id="@+id/ayuda2"/>
+
+</RelativeLayout>

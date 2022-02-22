@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ITTEPIC DIGITAL</string>
+    <string name="tab_text_1">Acerca de Nosotros</string>
+    <string name="tab_text_2">Consulta tu Credencial</string>
+    <string name="title_activity_maps">En donde estamos localizados</string>
+    <string name="google_maps_key" translatable="false">AIzaSyByL-xP-RfYUdHfIzUXpWDzhD1Q98hod58</string>
+    <string name="title_activity_fullscreen">Credencial</string>
+    <string name="dummy_button">Esconder</string>
+</resources>
